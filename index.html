@@ -1,0 +1,161 @@
+<html
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<title>Portofolio</title>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- bagian header -->
+		<header>
+			<div class="container">
+			<h1><a href="">Auryn</a></h1>
+			</div>
+		</header>
+		
+		<!-- bagian banner -->
+		<section class="banner">
+			<div class="container">
+				<h2>Hai...<br>
+				<p>Selamat Datang di Website Portofolio saya</p></h2>
+			</div>
+		</section>
+		
+		<!-- bagian tentang -->
+		<section id="tentang">
+			<div class="container">
+				<h3>Tentang</h3>
+				<p>	Perkenalkan, nama saya AURYN CLARA JANGKOBUS 
+				Saya berasal dari Sulawesi Utara, Kabupaten.Kepulauan Sangihe. 
+				Saya adalah seorang mahasiswi di Universitas Merdeka Malang, 
+				Fakultas Teknologi Informasi 
+				dengan mengambil Jurusan Sistem Informasi, 
+				dan saat ini sudah sampai semester 4.</p>
+		
+		<!-- bagian kontak -->
+		<section id="kontak">
+			<div class="container">
+				<h3>Kontak</h3>
+				<div class="col-3">
+					<h4>Alamat</h4>
+					<p>Kab.Kepl.Sangihe, Tahuna, Sulut</p>
+				</div>
+				
+				<div class="col-3">
+					<h4>Email</h4>
+					<p>aurynclara27@gmail.com</p>
+				</div>
+				
+				<div class="col-3">
+					<h4>Telp/Hp</h4>
+					<p>082290559700</p>
+				</div>
+			</div>
+		</section>
+		
+		<!-- footer -->
+		<footer>
+			<div class="container">
+			<small>Copyright &copy; 2022 - Auryn.</small>
+			</div>
+		</footer>
+	</body>
+</html>
+
+<style>
+* {
+	padding:0;
+	margin:0;
+	font-family:'Quicksand', sans-serif;
+	color: #8B0000;
+}
+
+header {
+	height: 75px;
+}
+
+header h1{
+	display: inline-block;
+	float: left;
+	padding: 16px 24px;
+	text-transform: uppercase;
+}
+
+header h1 a {
+	transition: .3s;
+}
+header h1 a:hover {
+	color: #B22222;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner {
+	background-color: #FFA07A;
+	padding:150px 0;
+}
+section {
+	padding: 50px 0;
+}
+
+.banner h2,
+.banner p {
+	color: #800000;
+}
+.banner h2 {
+	margin-bottom: 10px;
+}
+.banner p {
+	font-size: 17px;
+}
+
+.banner-left {
+	padding-left:24px;
+}
+
+section h3 {
+	padding-bottom: 20px;
+	text-align: center;
+	margin:20px;
+	position: relative;
+}
+
+#tentang p {
+	text-align: justify;
+	text-inden: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+.container {
+	width:90%;
+	margin: 0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.col-3 {
+	width:33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding: 50px 10px;
+}
+.col-3 h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+
+footer {
+	background-color: #A0522D;
+	padding:50px;
+	text-align: center;
+}
+footer small {
+	color: #fff;
+}
